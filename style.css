@@ -67,15 +67,17 @@ main {
 
 .sec2 {
     margin-top: 50px;
+    width: 1321px;
 }
 
 .match {
     align-items: center;
     background: black;
-    margin-left: 170px;
     border-radius: 10px;
     width: 312px;
     height: 212px;
+    margin-right: 100px;
+
 }
 
 .left-match {
@@ -128,9 +130,16 @@ main {
     margin-left: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
+    width: 244px;
 }
 
 .live-info {
     margin-left: 10px;
     word-spacing: 10px;
+}
+
+.lives {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
 }
